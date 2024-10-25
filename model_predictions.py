@@ -11,11 +11,11 @@ from datetime import datetime
 
 # Load the trained model and scaler
 try:
-    model = joblib.load('C:/Users/mcall/trained_model_rf.pkl')
-    scaler = joblib.load('C:/Users/mcall/scaler.pkl')
+    model = joblib.load('C:/Users////trained_model_rf.pkl')
+    scaler = joblib.load('C:/Users////scaler.pkl')
     
     # Load new data for predictions
-    new_data = pd.read_csv('C:/Users/mcall/synthetic_sensor_data_90_days.csv')
+    new_data = pd.read_csv('C:/Users////synthetic_sensor_data_90_days.csv')
 except FileNotFoundError as e:
     print(f"File not found: {e}")
     exit()
@@ -71,7 +71,7 @@ new_data['Description'] = descriptions
 new_data['Recommendation'] = recommendations
 
 # Save predictions to a new CSV file
-output_path = 'C:/Users/mcall/model_predictions_output.csv'
+output_path = 'C:/Users////model_predictions_output.csv'
 new_data.to_csv(output_path, index=False)
 
 # Output success message and show a summary
