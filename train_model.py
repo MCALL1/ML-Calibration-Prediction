@@ -13,7 +13,7 @@ import joblib
 import numpy as np
 
 # Load the synthetic data
-data = pd.read_csv('C:/Users/mcall/synthetic_sensor_data_90_days.csv')
+data = pd.read_csv('C:/Users//synthetic_sensor_data_90_days.csv')
 
 # Feature engineering: Create new features
 data['pressure_deviation'] = data['Reading']
@@ -45,7 +45,7 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train_scaled, y_train)
 
 # Save the trained model and the scaler
-joblib.dump(model, 'C:/Users/mcall/trained_model_rf.pkl')
-joblib.dump(scaler, 'C:/Users/mcall/scaler.pkl')
+joblib.dump(model, 'C:/Users//trained_model_rf.pkl')
+joblib.dump(scaler, 'C:/Users//scaler.pkl')
 
 print("Model and scaler saved successfully.")
