@@ -15,7 +15,7 @@ Model Training: Uses a RandomForestClassifier from scikit-learn as the primary m
 Normalization: Scales the features using StandardScaler to improve model performance and ensure standardized input.
 Model Saving: Serializes and saves the trained model and scaler using joblib for use in future predictions.
 
-Key Processes and Models
+Key Processes 
 
 Machine Learning Model: Random Forest Classifier
 Data Processing Techniques: Feature Engineering, One-Hot Encoding, Data Scaling
@@ -42,4 +42,6 @@ File Handling: Saves results with predictions, descriptions, and recommendations
 
 Project Summary
 
-This project demonstrates a full machine learning pipeline, from data processing and model training to real-time predictions and actionable insights. The use of synthetic sensor data highlights how machine learning can be applied in maintenance prediction and calibration recommendations for industrial applications. Both scripts work in tandem to create an end-to-end solution for predictive maintenance.
+This project demonstrates a full machine learning pipeline, from data processing and model training to real-time predictions and actionable insights. The use of synthetic sensor data highlights how machine learning can be applied in maintenance prediction and calibration recommendations for industrial applications. Both scripts work in tandem to create an end-to-end solution for predictive maintenance. 
+
+ 
