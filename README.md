@@ -44,4 +44,5 @@ Project Summary
 
 This project demonstrates a full machine learning pipeline, from data processing and model training to real-time predictions and actionable insights. The use of synthetic sensor data highlights how machine learning can be applied in maintenance prediction and calibration recommendations for industrial applications. Both scripts work in tandem to create an end-to-end solution for predictive maintenance. 
 
- 
+Technical support - Michael Call
+  317 439 5854 
