@@ -144,13 +144,14 @@ for i in range(total_sensors):
             "Alarm_Triggered": alarm_triggered
         })
 
-# Create a DataFrame to hold the generated data
+#  DataFrame to hold the generated data
 sensor_data_df = pd.DataFrame(sensor_data_list)
 
-# Save the generated data to a CSV file in the specified location
-sensor_data_df.to_csv('C:/Users/mcall/synthetic_sensor_data_90_days.csv', index=False)
+# Save the generated data to a CSV 
+sensor_data_df.to_csv('C:/Users/*****/synthetic_sensor_data_90_days.csv', index=False)
 
 print("Synthetic sensor data with error messages generated and saved successfully.")
 
 
-
+Michael Call - 317 439 5854 
+mcall1@hotmail.com 
