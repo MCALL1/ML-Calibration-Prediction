@@ -53,3 +53,7 @@ new_data.to_csv(output_path, index=False)
 print(f"Predictions generated and saved successfully to {output_path}")
 print(f"Number of calibration needs detected: {new_data['Calibration_Needed'].sum()}")
 print(new_data.head())
+
+
+ Technical support: Micahel Call - 317 439 5854 
+ mcall1@hotmail.com 
